@@ -1,0 +1,360 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+}
+
+h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#experience {
+  padding-top: 70px;
+  margin-top: -25px;
+  padding-bottom: 20px;
+}
+
+
+#projects {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#resources {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+
+.menu {
+  font-size: 21px;
+}
+
+.nav-item {
+  padding-left: 24px;
+}
+
+.navbar {
+  transition: background-color 0.3s ease-in;
+}
+
+.menu {
+  margin-right: 30px;
+}
+
+
+html:not([data-scroll="0"]) .home-nav{
+    background-color: #f8f9fa;
+}
+
+html:not([data-scroll]) .home-nav{
+    background-color: #F5E8C7;
+}
+
+
+.intro-section {
+  /*background-image: url('../images/DSC02396.JPG');*/
+  background-color: #F5E8C7;
+  background-size: 100%;
+  color: #000000;
+}
+
+.intro-profile {
+  padding: 14vw 2.8vw;
+}
+
+
+.name {
+  font-size: 7rem;
+  padding: 0;
+}
+
+.description {
+  font-size: 1.75rem;
+  text-align: right;
+  padding-right: 20%;
+}
+
+.experience-title {
+  font-weight: bold;
+  padding: 2rem 7rem;
+}
+
+.profile-picture {
+  width: 23rem;
+  border: 13px solid #ffffff;
+  border-radius: 200px;
+  /*margin-right: 11rem;*/
+
+}
+
+/* .cloud-space {
+  padding-top: 20rem;
+  overflow: hidden;
+}
+
+
+.cloud {
+  width: 10%;
+  position: relative;
+  left: -9rem;
+} */
+
+
+.experience-row {
+  margin: 5rem auto 0 auto;
+  padding-bottom: 5.5rem;
+  line-height: 2;
+}
+
+.exp-img {
+  width: 22rem;
+  padding: 2rem;
+  float: left;
+}
+
+
+/* .experience-sc, .project-sc {
+  padding-bottom: 50px;
+} */
+
+.project-sc {
+  background-color:#000000;
+  color: #ffffff;
+}
+
+.proj-img {
+  float: right;
+  width: 22rem;
+  padding: 2rem;
+}
+
+.link-grey {
+  color: #787A91;
+}
+
+.link-grey:hover {
+  color: #787A91;
+}
+
+.references {
+  background-color: #85e6f6;
+}
+
+.reference-row {
+  padding: 55px;
+}
+
+.reference-icon {
+  width: 7rem;
+  margin-bottom: 22px;
+}
+
+
+.contact-info {
+  padding-top: 30px;
+  background-color:#000000;
+  color: #ffffff;
+}
+
+.contact-row {
+  padding: 5rem 7rem;
+}
+
+.contact-icon {
+  color: #ffffff;
+}
+
+.footer-credit {
+  padding-bottom: 10px;
+}
+
+/*Projects Pages*/
+.projects-intro {
+  background-color:#000000;
+  color: #ffffff;
+  /*can include additional padding*/
+}
+
+
+.projects-page-title {
+  padding-top: 2.8rem;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 6.2rem;
+  /* text-align: left; */
+}
+
+.description-space {
+  width: 480px;
+}
+
+.projects-title-description {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.projects-title-image {
+  width: 30rem;
+  margin-bottom: 0;
+}
+
+/* html:not([data-scroll="0"]) .projects-nav{
+    background-color: #f8f9fa;
+}
+
+html:not([data-scroll]) .projects-nav{
+    background-color: #000000;
+}
+ */
+
+.project-list {
+  font-size: 2.5rem;
+  padding-bottom: 6rem;
+}
+
+.project-li {
+  padding: 10px;
+  margin: 18px;
+  max-height: 60.5px;
+}
+
+.project-list a {
+  transition: 0.1s;
+}
+
+
+
+.project-list a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 3.2rem;
+}
+
+.project-gif {
+  width: 38rem;
+}
+
+/*Styling specific project titles*/
+.fineapple {
+  font-family: 'Lobster', cursive;
+}
+
+.keeper {
+  font-family: "McLaren", cursive;
+}
+
+.life-blog {
+  letter-spacing: 5px;
+  font-family: "Helvetica Neue", "Helvetica" , "Arial", sans-serif;
+}
+
+.drum-kit {
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+.simon {
+  font-family: 'Press Start 2P', cursive;
+  /*color: #FEF2BF;*/
+  color: #FFFBEE;
+}
+
+.simon:hover {
+  color: #FFFBEE !important;
+}
+
+.tindawg {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.fineapple, .keeper, .tindawg, .life-blog {
+  color: #ffffff;
+}
+
+
+.project-row {
+  padding: 15rem 4rem;
+}
+
+.project-title {
+  font-size: 48px;
+}
+
+.project-description {
+  margin-top: 2rem;
+  color: #ffffff;
+}
+
+.project-link-box {
+  margin-top: 35px;
+}
+
+.project-link {
+  color: #444444;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.project-link:hover {
+  color: #444444;
+}
+
+
+#fineapple-studios {
+  background-color: #FF67FF;
+}
+
+/* #fineapple-studios .project-link {
+   color: #ffd369;
+} */
+
+.project-title-box.fineapple {
+  width: 23rem;
+  padding: 3px 0px;
+  background-color:#000000;
+}
+
+#keeper-app {
+  background-color: #8BD1FF;
+}
+
+/* #keeper-app .project-link {
+  color: #f5ba13;
+} */
+
+#life-of-timmybing {
+  /* background-color: #F1E4C3; */
+  /* background-color: #DAB88B; */
+  /* background-color: #E3CAA5; */
+  background-color: #ECC488;
+}
+
+.project-title-box.life-blog {
+  width: 38rem;
+  margin: 5px auto;
+  background-color:#000000;
+}
+
+#drum-kit {
+  /* background-color: #9F9F9F; */
+  /* background-color: #9092DE; */
+  background-color: #90A7DE;
+  /* background-color: #90BFDE; */
+}
+
+#simon-game {
+  background-color: #FCD964;
+}
+
+#tindawg {
+  background-color: #C1C1C1;
